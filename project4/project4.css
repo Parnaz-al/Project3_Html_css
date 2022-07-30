@@ -1,0 +1,291 @@
+@font-face {
+    font-family: fonth;
+    font-style: normal;
+    font-weight: bold;
+    src:url ('font.ttf');
+
+}
+body{
+    font-family: fonth;
+
+}
+
+
+.header{
+background-image:url('image/image.jpg');
+background-size:100% 100%;
+height: 400px;
+}
+.header {
+    font-family: fonth;
+}
+.insideheader{
+color: white;    
+margin-left:40px;
+margin-top:40px;
+font-size:35px;
+
+}
+.dot{
+    color:rgb(255, 167, 167);
+}
+
+ a{
+color:rgb(248, 182, 192);
+text-decoration:none;
+font-size: 30px;
+margin-left:5px ;
+}
+
+.link{
+    display:inline-block;
+    width: 50px;
+        height: 50px;
+        text-align: center;
+   
+    }
+
+  .header a:hover{
+       
+        width: 50px;
+        height: 50px;
+        
+        border-radius:50% ;
+        background:white ;
+    }
+   
+    .insideheader p{
+        font-size: 20px;
+    }
+
+
+
+    .div1{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+
+    }
+
+    .div1 .div1inside{
+        text-align: center;
+        margin-left: 50px;
+        
+         margin-top:40px;
+        
+        
+        width:400px ;
+        height:250px ;
+
+    }
+
+    .div1icon{
+        width: 100px;
+        height: 100px;
+        margin-left:150px;
+        border-radius: 50%;
+        background:rgb(230, 161, 161);
+        text-align: center;
+    }
+
+    .div1icon i{
+        text-align: center;
+        font-size: 60px;
+        margin-top:20px;
+        color:white;
+        
+
+    }
+
+    .div1inside .div1text{
+        font-size: 17px;
+        color:rgb(161, 160, 160);
+        text-align: center;
+
+    }
+
+    .div1text h1{
+        color:grey;
+
+    }
+
+    .div2{
+        background-color: rgb(226, 222, 222);
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+       
+
+    } 
+    .div2 .right {
+         margin-left: 200px;
+         margin-bottom: 70px;
+      
+    }
+    .div2 .left{
+        margin-top:65px;
+
+    }
+    .div2 .left .text{
+        color:grey;
+        font-size:20px;
+    }
+    .div2 .left .box{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        
+   
+
+    }
+
+    .div2 .left .box .input{
+        width: 500px ;
+        height: 40px ;
+        border:2px solid white ;
+        border-radius: 2%;
+
+
+
+    }
+
+
+  .div2 .left .box .submit{
+       background:rgb(247, 203, 203);
+       box-sizing: 40px;
+       margin-left: 10px ;
+       border-radius: 20%;
+       border:2px solid white ;
+
+    }
+    
+
+    .div3 .div3image{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .div3 .div3image :hover img{
+        opacity: 0.3;
+
+    }
+
+
+    .div3 .div3image img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .div3 .div3text1{
+        display:flex;
+        justify-content: center;
+        color:rgb(161, 160, 160);
+         flex-direction: column;
+         text-align: center;
+        margin-top:30px;
+        font-size:20px;
+    }
+    
+    .div3 .div3text2{
+        display:flex;
+        justify-content: center;
+        color:rgb(161, 160, 160); 
+        flex-direction: column;
+        text-align: center;
+        font-size:20px;
+
+
+    }
+    .div3 .div3text1 h1{
+
+        font-size:20px;
+        color:rgb(112, 112, 112);
+
+    }
+
+    .div3 .div3text2 h1{
+
+        color:rgb(112, 112, 112);
+
+    }
+
+
+    .div3 .div3icon{
+        display: flex;
+        text-align:center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left:5px;
+
+    }
+    .div3 .div3icon a{
+        margin-left:10px;
+        width: 35px;
+        height:35px;
+        border-radius: 50%;
+        background:rgb(204, 202, 202);
+        color:white;
+        font-size: 20px;
+        
+
+    }
+    .div3 .div3icon a:hover{
+      
+        background:rgb(247, 203, 203); 
+    }
+
+
+
+
+
+
+    .div3 .div3icon i {
+        margin-top:6px;
+    }
+    
+
+
+    li{
+        display:inline-block;
+        margin-left:5px;
+        
+        text-align: center;
+        margin-top: 70px;
+    
+       
+
+
+    }
+    .div4{
+        text-align: center;
+        background-color: rgb(226, 222, 222);
+        height:120px;
+        margin-top: 50px;
+        
+    }
+    
+       
+        
+        
+   
+    .div4 a{
+        color:rgb(112, 112, 112);
+        text-decoration: none;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    .div4 a:hover{
+        color:white;
+    }
+
+
+
+
+
+
+
+
+
+
+
